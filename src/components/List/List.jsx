@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid";
 import { Item } from "../Item/Item";
-import "./List.css";
+import "./List.scss";
 
 const emojis = ["🚀", "🎶", "🎁", "🎉", "✨"];
 

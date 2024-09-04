@@ -13,12 +13,12 @@
   margin-bottom: 42px;
   font-size: 32px;
   transition: transform 0.3s;
-}
 
-.emoji.zoomed {
-  /* font-size: 64px; */
-  /* better solution below */
-  transform: scale(2);
+  &.zoomed {
+    /* font-size: 64px; */
+    /* better solution below */
+    transform: scale(2);
+  }
 }
 
 /* Button / <Item> -> button */
@@ -31,9 +31,9 @@
   width: 100px;
   color: white;
   transition: background 0.3s, color 0.3s;
-}
 
-.btn:hover {
-  color: salmon;
-  background: white;
+  &:hover {
+    color: salmon;
+    background: white;
+  }
 }
